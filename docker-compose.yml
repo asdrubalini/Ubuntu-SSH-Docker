@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  ubuntu-ssh:
+    container_name: ubuntu_ssh
+    build: .
+    network_mode: host
+    cap_add:
+      - ALL
